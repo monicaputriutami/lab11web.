@@ -2,6 +2,7 @@
 # Nama : Monica Putri Utami
 # Nim   : 311910190
 # Kelas : TI 19 B2
+# Praktikum 12
 Sebelum memulai menggunakan Framework Codeigniter, perlu dilakukan konfigurasi pada webserver. Beberapa ekstensi PHP perlu diaktifkan untuk kebutuhan pengembangan Codeigniter 4. Dengan cara di bawah ini :
 ![image](https://user-images.githubusercontent.com/81574673/122777207-04c84480-d2d6-11eb-9ccc-8d89bd8345b4.png)
 
