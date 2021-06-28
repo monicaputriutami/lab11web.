@@ -30,6 +30,7 @@ Maka pesan kesalahan akan ditampilkan.
 
 Langkah 1 - Membuat Route
 •	Router terletak pada file app/config/Routes.php
+
 •	Untuk mengetahui route yg ada atau telah berjalan dapat menggunakan perintah php spark routes
 
 ![image](https://user-images.githubusercontent.com/81574673/122778301-1231fe80-d2d7-11eb-9f17-3cdd87f7e733.png)
@@ -105,6 +106,68 @@ Maka akan muncul tampilan seperti ini ketika browser direfresh.
 
 5 - Membuat Tampilan Detail Artikel
 Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan sebuah fungsi baru pada Controller Artikel /app/Controllers/Artikel.php dengan nama view(). dengan code dibawah ini
+
+# Lanjut PRAKTIKUM 13
+
+1. membuat tabel user
+
+![image](https://user-images.githubusercontent.com/81574673/123690500-a6bfd200-d87e-11eb-8647-6b3b6cd84ced.png)
+
+2. membuat Model untuk memproses data login. membuat file baru pada direktori app/Models dengan nama UserModel.php
+
+![image](https://user-images.githubusercontent.com/81574673/123690760-f2727b80-d87e-11eb-9319-4d28945acaec.png)
+
+membuat Controller user dengan nama User.php pada direktori app/Controllers, kemudian tambahkan method index() untuk menampilkan daftar user dan method login () untuk proses login 
+
+![image](https://user-images.githubusercontent.com/81574673/123691203-83e1ed80-d87f-11eb-8c75-7d87e8eaf774.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123691238-90664600-d87f-11eb-9868-f260f08a3031.png)
+
+3. membuat view login baru dengan nama user pada direktori baru dengan nama pada user direktori app/views, kemudian membuat file barub dengan nama login.php
+
+![image](https://user-images.githubusercontent.com/81574673/123691451-d7ecd200-d87f-11eb-9aa4-d7c1293083b4.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123691483-e1763a00-d87f-11eb-82f4-7731033fca80.png)
+
+5. Membuat Database Seeder Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+
+![image](https://user-images.githubusercontent.com/81574673/123696290-c73f5a80-d885-11eb-8357-e9832800422a.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123696336-d7573a00-d885-11eb-9e87-fefebdc33847.png)
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+
+![image](https://user-images.githubusercontent.com/81574673/123696390-e8a04680-d885-11eb-9f26-455fba2044bf.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123696969-927fd300-d886-11eb-8d54-295a06f1a7b3.png)
+
+6. Menambahkan Auth Filter Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
+
+![image](https://user-images.githubusercontent.com/81574673/123697142-c22edb00-d886-11eb-96bb-eea79000f483.png)
+
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+
+![image](https://user-images.githubusercontent.com/81574673/123697203-d377e780-d886-11eb-9978-7dbdb4612d0b.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123697239-dd014f80-d886-11eb-85f0-d0c7ef90a51c.png)
+
+percobaan Akses Menu Admin
+
+![image](https://user-images.githubusercontent.com/81574673/123697541-3cf7f600-d887-11eb-931c-4ee9a962decb.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123697868-9cee9c80-d887-11eb-8608-c6119e05a968.png)
+
+7. Fungsi Logout Tambahkan method logout pada Controller User seperti berikut:
+
+![image](https://user-images.githubusercontent.com/81574673/123697929-b2fc5d00-d887-11eb-87e5-9dca2043792c.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123699118-18048280-d889-11eb-8b1d-203b2df5fcff.png)
+
+![image](https://user-images.githubusercontent.com/81574673/123705325-01622980-d891-11eb-88cb-c0611ebccef5.png)
+
+
+
+
 
 
 
