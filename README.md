@@ -165,7 +165,36 @@ percobaan Akses Menu Admin
 
 ![image](https://user-images.githubusercontent.com/81574673/123705325-01622980-d891-11eb-88cb-c0611ebccef5.png)
 
+# MELANJUTKAN TUGAS LAB11 YAITU MELANJUTKAN PRAKTIKUM KE-14, LANGSUNG SAJA
+1. Saya membuat pagination, yaitu dengan membuka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
 
+![image](https://user-images.githubusercontent.com/81574673/124473371-6fdf4400-ddc9-11eb-9473-41117db10695.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124473394-7968ac00-ddc9-11eb-86b2-ae23dbde27af.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124473805-f431c700-ddc9-11eb-814c-8982d4669e3e.png)
+
+2. Membuat Pencarian Pencarian data digunakan untuk memfilter data. Saya membuat pencarian data, yaitu dengan membuka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut
+
+![image](https://user-images.githubusercontent.com/81574673/124473963-26dbbf80-ddca-11eb-8fec-dc15e2640853.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124473993-30652780-ddca-11eb-9c63-11632241879f.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124474121-5a1e4e80-ddca-11eb-89a6-f94db8489755.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124474317-95b91880-ddca-11eb-8f39-33222c446ac8.png)
+
+3. Terakhir Saya Upload Gambar . yaitu menambahkan fungsi unggah gambar pada tambah artikel.Dengan cara membuka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+![image](https://user-images.githubusercontent.com/81574673/124474430-b4b7aa80-ddca-11eb-996e-151bad36ec8b.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124474505-cd27c500-ddca-11eb-8781-a3b52bea1cef.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124475570-13315880-ddcc-11eb-9212-e2dc9d63f2ec.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124476740-69eb6200-ddcd-11eb-8392-11a219f2bf7e.png)
+
+![image](https://user-images.githubusercontent.com/81574673/124476921-9d2df100-ddcd-11eb-93c7-c380288ce04f.png)
 
 
 
